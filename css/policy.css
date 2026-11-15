@@ -1,0 +1,39 @@
+/* Tiny Tank privacy policy — simple, easy to read */
+:root {
+  --ink: #1e2a1c;
+  --ink-soft: #4a5547;
+  --cream: #fff8e6;
+  --edge: #e6d6ad;
+  --orange: #ff8a2b;
+  --green: #2e7d23;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--cream); color: var(--ink);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  line-height: 1.7; font-size: 16px;
+}
+html:lang(ko) body { word-break: keep-all; }
+.page { width: min(820px, 100% - 32px); margin: 0 auto; padding: 24px 0 64px; }
+.top { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; }
+.top img { width: 44px; height: 44px; border-radius: 12px; }
+.top .name { font-weight: 800; font-size: 1.15rem; flex: 1; }
+.langs { display: flex; gap: 4px; border: 2px solid var(--ink); border-radius: 999px; padding: 3px; background: #fff; }
+.langs a { text-decoration: none; color: var(--ink); font-weight: 800; font-size: .85rem; padding: 3px 12px; border-radius: 999px; }
+.langs a[aria-current="true"] { background: var(--ink); color: #fff; }
+article { background: #fff; border: 2px solid var(--edge); border-radius: 20px; padding: 28px clamp(18px, 4vw, 40px); }
+h1 { font-size: clamp(1.7rem, 5vw, 2.2rem); margin: 0 0 6px; line-height: 1.2; }
+.meta { color: var(--ink-soft); margin: 0 0 22px; font-size: .95rem; }
+h2 { font-size: 1.2rem; margin: 30px 0 8px; padding-top: 14px; border-top: 1px solid #efe6cf; color: var(--green); }
+p, li { color: #2c3829; }
+ul { padding-left: 1.3em; }
+li { margin: 4px 0; }
+.summary { background: #f3faee; border: 2px solid #cfe7c1; border-radius: 14px; padding: 14px 18px; }
+.summary ul { margin: 6px 0 0; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: .95rem; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border: 1px solid #eadfc2; }
+th { background: #fff6e2; }
+.table-wrap { overflow-x: auto; }
+a { color: #c25e05; }
+footer { text-align: center; color: var(--ink-soft); font-size: .88rem; margin-top: 22px; }
